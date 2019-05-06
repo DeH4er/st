@@ -1,3 +1,4 @@
+#include "config.local.h"
 /* See LICENSE file for copyright and license details. */
 
 /*
@@ -5,7 +6,6 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
