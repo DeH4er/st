@@ -2456,14 +2456,6 @@ twrite(const char *buf, int buflen, int show_ctrl)
 }
 
 void
-tresizefix(Arg *arg)
-{
-	tnew(80, term.row);
-	xinit(80, term.row);
-
-}
-
-void
 tresize(int col, int row)
 {
 	int i;
